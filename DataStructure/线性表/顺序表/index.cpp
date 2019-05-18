@@ -6,7 +6,6 @@
 //  Copyright © 2019 黄嘉成. All rights reserved.
 //
 #include <iostream>
-#include "index.hpp"
 #include <stdlib.h>
 #define LIST_INT_SIZE 100    //顺序表初始长度
 #define LISTINCREMENT 10    //顺序表增量长度
