@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		676AD16E228FF08E007566DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676AD16D228FF08E007566DF /* main.cpp */; };
+		676AD17C228FF1CD007566DF /* index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676AD17A228FF1CD007566DF /* index.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		676AD16A228FF08E007566DF /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		676AD16D228FF08E007566DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		676AD17A228FF1CD007566DF /* index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = index.cpp; sourceTree = "<group>"; };
+		676AD17B228FF1CD007566DF /* index.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = index.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,27 @@
 		676AD16C228FF08E007566DF /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				676AD175228FF175007566DF /* 线性表 */,
 				676AD16D228FF08E007566DF /* main.cpp */,
 			);
 			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		676AD175228FF175007566DF /* 线性表 */ = {
+			isa = PBXGroup;
+			children = (
+				676AD179228FF1BD007566DF /* 顺序表 */,
+			);
+			path = "线性表";
+			sourceTree = "<group>";
+		};
+		676AD179228FF1BD007566DF /* 顺序表 */ = {
+			isa = PBXGroup;
+			children = (
+				676AD17A228FF1CD007566DF /* index.cpp */,
+				676AD17B228FF1CD007566DF /* index.hpp */,
+			);
+			path = "顺序表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676AD17C228FF1CD007566DF /* index.cpp in Sources */,
 				676AD16E228FF08E007566DF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
