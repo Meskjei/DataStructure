@@ -24,6 +24,8 @@ void listDelete(LNode &head, int position);
 void clearList(LNode &head);
 //生成含有n个元素的链表
 LNode* createList(int n);
+// 逆置单链表
+void reverse(LNode &head);
 
 
 
@@ -103,4 +105,17 @@ LNode* createList(int n){
         pointer = pointer->next;
     }
     return head;
+}
+
+// 逆置单链表
+void reverse(LNode &head){
+    LNode *pointer = head.next;
+    head.next = NULL;
+    LNode *succ = NULL;
+    while(pointer){
+        succ = pointer;
+        pointer = pointer->next;
+        succ->next = head.next;
+        head.next = succ;
+    }
 }
