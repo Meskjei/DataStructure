@@ -22,8 +22,7 @@ int locateData(Sqlist L, int data); //查找数据
 void listInsert(Sqlist &L, int index, int data);    //插入数据
 void listDelete(Sqlist &L, int index);  //删除数据
 
-Sqlist* initList(){
-    Sqlist L;
+Sqlist* initList(Sqlist &L){
     L.data = (int *)malloc(LIST_INT_SIZE * sizeof(int));
 //    判断内存是否分配成功
     if(!L.data){

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		676AD17C228FF1CD007566DF /* index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676AD17A228FF1CD007566DF /* index.cpp */; };
 		676AD18022900037007566DF /* index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676AD17E22900037007566DF /* index.cpp */; };
+		676AD1852292A882007566DF /* index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676AD1832292A882007566DF /* index.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		676AD16A228FF08E007566DF /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		676AD17A228FF1CD007566DF /* index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = index.cpp; sourceTree = "<group>"; };
 		676AD17E22900037007566DF /* index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = index.cpp; sourceTree = "<group>"; };
+		676AD1832292A882007566DF /* index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = index.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		676AD16C228FF08E007566DF /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				676AD1812292A83F007566DF /* 栈 */,
 				676AD175228FF175007566DF /* 线性表 */,
 			);
 			path = DataStructure;
@@ -87,6 +90,22 @@
 				676AD17E22900037007566DF /* index.cpp */,
 			);
 			path = "链表";
+			sourceTree = "<group>";
+		};
+		676AD1812292A83F007566DF /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				676AD1822292A870007566DF /* 顺序栈 */,
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
+		676AD1822292A870007566DF /* 顺序栈 */ = {
+			isa = PBXGroup;
+			children = (
+				676AD1832292A882007566DF /* index.cpp */,
+			);
+			path = "顺序栈";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +166,7 @@
 			files = (
 				676AD17C228FF1CD007566DF /* index.cpp in Sources */,
 				676AD18022900037007566DF /* index.cpp in Sources */,
+				676AD1852292A882007566DF /* index.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
