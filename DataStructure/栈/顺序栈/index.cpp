@@ -42,6 +42,7 @@ void push(SqStack &stack,int data){
     }
     
     *stack.top++ = data;
+    stack.length++;
 }
 
 //出栈
@@ -50,6 +51,7 @@ int pop(SqStack stack){
         cout<<"栈中没有元素";
         return NULL;
     }
+    stack.length--;
     return *--stack.top;
 }
 
