@@ -12,6 +12,7 @@
 		676AD1852292A882007566DF /* index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676AD1832292A882007566DF /* index.cpp */; };
 		676AD1892292DA97007566DF /* index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676AD1872292DA97007566DF /* index.cpp */; };
 		676AD18E2294E1D1007566DF /* index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676AD18C2294E1D1007566DF /* index.cpp */; };
+		676AD1922294EF0F007566DF /* index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676AD1902294EF0F007566DF /* index.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		676AD1832292A882007566DF /* index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = index.cpp; sourceTree = "<group>"; };
 		676AD1872292DA97007566DF /* index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = index.cpp; sourceTree = "<group>"; };
 		676AD18C2294E1D1007566DF /* index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = index.cpp; sourceTree = "<group>"; };
+		676AD1902294EF0F007566DF /* index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = index.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		676AD18A2294E1AA007566DF /* 队列 */ = {
 			isa = PBXGroup;
 			children = (
+				676AD18F2294EEFC007566DF /* 顺序队列 */,
 				676AD18B2294E1B4007566DF /* 链队列 */,
 			);
 			path = "队列";
@@ -136,6 +139,14 @@
 				676AD18C2294E1D1007566DF /* index.cpp */,
 			);
 			path = "链队列";
+			sourceTree = "<group>";
+		};
+		676AD18F2294EEFC007566DF /* 顺序队列 */ = {
+			isa = PBXGroup;
+			children = (
+				676AD1902294EF0F007566DF /* index.cpp */,
+			);
+			path = "顺序队列";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 			files = (
 				676AD17C228FF1CD007566DF /* index.cpp in Sources */,
 				676AD18022900037007566DF /* index.cpp in Sources */,
+				676AD1922294EF0F007566DF /* index.cpp in Sources */,
 				676AD1892292DA97007566DF /* index.cpp in Sources */,
 				676AD1852292A882007566DF /* index.cpp in Sources */,
 				676AD18E2294E1D1007566DF /* index.cpp in Sources */,
